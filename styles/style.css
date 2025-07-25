@@ -128,3 +128,64 @@ a:active{
   color: rgba(0, 0, 0, 0.500);
   margin-top: 0.8rem;
 }
+/* === Hero Section Style Ends */
+
+/* === Plant Section Style Start */
+.plant{
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.plant-text h2{
+  font-family: 'Noto Serif', serif;
+  font-size: 3.2rem;
+  color: #333;
+  font-weight: 700;
+}
+.plant-text p{
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.500);
+  margin-top: 0.8rem;
+  padding: 0 7.8rem;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background: #f26522;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-weight: bold;
+}
